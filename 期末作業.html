@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen Damn</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Sawarabi+Mincho&display=swap">
+    <style>
+        body {
+            font-family: 'Sawarabi Mincho', serif;
+            background-color: #FFE4C4;
+            color: #333333;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Noto Serif JP', serif;
+        }
+        
+        .w3-bar {
+            background-color: #700f0f;
+        }
+        
+        .w3-bar a {
+            color: #333333 !important;
+        }
+        
+        .w3-button {
+            background-color: #FFE4C4;
+            color: #333333;
+        }
+        
+        .w3-button:hover {
+            background-color: #700f0f;
+            color: #FFFFFF !important;
+        }
+        
+        .w3-section {
+            background-color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+        
+        .w3-container {
+            background-color: #FFFFFF;
+        }
+        
+        .menu-item {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button">Ramen Damn</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">簡介</a>
+                <a href="#menu" class="w3-bar-item w3-button">菜單</a>
+                <a href="#contact" class="w3-bar-item w3-button">聯絡方式</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+        <img class="w3-image" src="ramen_header.jpg" alt="Ramen Damn" style="width:100%; height:auto;">
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+            <h1 class="w3-xxlarge w3-text-white">Ramen Damn</h1>
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:1100px;">
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-64" id="about">
+            <div class="w3-row">
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center">關於我們</h1><br>
+                    <h5 class="w3-center">傳統日式拉麵的精髓</h5>
+                    <p class="w3-large">我們的拉麵店自2005年以來一直致力於提供最地道的日式拉麵。我們選用最新鮮的食材，配以秘制湯底，帶給您無與倫比的味覺享受。歡迎光臨，品味我們的傳統和熱情。</p>
+                    <p class="w3-large w3-text-grey">我們的拉麵店不僅提供經典的豚骨拉麵、醬油拉麵、味噌拉麵，還有各種創新的料理選擇，讓您每次光臨都有不同的驚喜。</p>
+                </div>
+                <div class="w3-col m6 w3-padding-large w3-hide-small">
+                    <img src="ramen_about.jpg" class="w3-round w3-image" alt="拉麵" style="width:100%; height:auto;">
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Menu Section -->
+        <div class="w3-container w3-padding-64" id="menu">
+            <h1 class="w3-center">菜單</h1><br>
+
+            <div class="w3-row">
+                <div class="w3-col l6">
+                    <!-- Ramen -->
+                    <h3>拉麵</h3>
+                    <div class="menu-item">
+                        <h4>豚骨拉麵</h4>
+                        <p class="w3-text-grey">濃郁豚骨湯底搭配嫩滑豬肉片 $170元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>醬油拉麵</h4>
+                        <p class="w3-text-grey">經典醬油湯底，口感清爽 $150元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>味噌拉麵</h4>
+                        <p class="w3-text-grey">香濃味噌湯底，營養豐富 $160元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>鹽味拉麵</h4>
+                        <p class="w3-text-grey">清淡鹽味湯底，適合夏天享用 $140元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>海鮮拉麵</h4>
+                        <p class="w3-text-grey">豐富的海鮮配料，味美鮮香 $200元</p>
+                    </div>
+                </div>
+
+                <div class="w3-col l6">
+                    <!-- Additional Dishes -->
+                    <h3>單點</h3>
+                    <div class="menu-item">
+                        <h4>玉子燒</h4>
+                        <p class="w3-text-grey">日式煎蛋捲 $80元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>糯米糰子</h4>
+                        <p class="w3-text-grey">傳統日式糯米糰子 $50元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>雞肉串</h4>
+                        <p class="w3-text-grey">炭火燒烤雞肉串 $100元</p>
+                    </div>
+
+                    <!-- Drinks -->
+                    <h3>飲料</h3>
+                    <div class="menu-item">
+                        <h4>可樂</h4>
+                        <p class="w3-text-grey">冰爽可樂 $30元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>可爾必思</h4>
+                        <p class="w3-text-grey">清爽可爾必思 $40元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>烏梅汁</h4>
+                        <p class="w3-text-grey">酸甜烏梅汁 $35元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>紅茶</h4>
+                        <p class="w3-text-grey">冰涼紅茶 $25元</p>
+                    </div>
+
+                    <!-- Alcohol -->
+                    <h3>酒</h3>
+                    <div class="menu-item">
+                        <h4>日本酒</h4>
+                        <p class="w3-text-grey">傳統日本清酒 $120元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>梅酒</h4>
+                        <p class="w3-text-grey">香甜梅酒 $100元</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <h4>生啤酒</h4>
+                        <p class="w3-text-grey">新鮮生啤酒 $90元</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-center w3-padding-64">
+                <img src="ramen_menu.jpg" class="w3-round w3-image" alt="菜單" style="width:80%; height:auto;">
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-64" id="contact">
+            <h1>聯絡我們</h1><br>
+            <p>我們提供全方位的餐飲服務，無論大小活動。我們了解您的需求，並將根據您的要求提供滿意的食物。請隨時聯繫我們。</p>
+            <p class="w3-text-blue-grey w3-large"><b>彰化縣 福興鄉 秀厝村 福三路 三段 585號</b></p>
+            <p>您可以通過電話 0932576899 或電子郵件 zhenlinliang26@gmail.com 聯繫我們，也可以在這裡給我們留言：</p>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="姓名" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16" type="number" placeholder="人數" required name="People"></p>
+                <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="日期和時間" required name="date" value="2024-06-13T20:00"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="留言 \ 特殊要求" required name="Message"></p>
+                <p><button class="w3-button w3-light-grey w3-section" type="submit">發送消息</button></p>
+            </form>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="w3-center w3-padding-64">
+            <a href="https://www.facebook.com" class="w3-button w3-light-grey w3-padding-large w3-margin-bottom w3-hover-opacity"><i class="fa fa-facebook-official w3-hover-opacity"></i> Facebook</a>
+            <a href="https://www.instagram.com" class="w3-button w3-light-grey w3-padding-large w3-margin-bottom w3-hover-opacity"><i class="fa fa-instagram w3-hover-opacity"></i> Instagram</a>
+            <a href="https://www.twitter.com" class="w3-button w3-light-grey w3-padding-large w3-margin-bottom w3-hover-opacity"><i class="fa fa-twitter w3-hover-opacity"></i> Twitter</a>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+        <p>Powered by <a href="https://wp.npust.edu.tw/" title="npust" target="_blank" class="w3-hover-text-green">npust</a></p>
+    </footer>
+
+</body>
+
+</html>
